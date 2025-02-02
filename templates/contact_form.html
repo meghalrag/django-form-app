@@ -12,7 +12,7 @@
   <!-- Header -->
   {% include "header.html" %}
   <div class="container mt-5">
-    <h1 class="mb-4">Contact Us</h1>
+    <h3 class="mb-4">Fill your Contact Details</h3>
     <form method="post" class="border p-4 rounded shadow-sm">
       {% csrf_token %}
       <div class="mb-3">
@@ -39,7 +39,7 @@
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     <div class="mt-4">
-      <a href="{% url 'list_contacts' %}" class="btn btn-secondary">Show All Contacts</a>
+      <a href="{% url 'list_contacts' %}" class="btn btn-secondary">View Entries</a>
     </div>
   </div>
   <footer class="site-footer">
