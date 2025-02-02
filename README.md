@@ -5,7 +5,7 @@
 - django-admin startproject django_form_app
 
 - configure mongoengine in settings.py
-`
+```
 import mongoengine
 # MongoEngine connection configuration:
 mongoengine.connect(
@@ -13,9 +13,11 @@ mongoengine.connect(
     host='localhost',  # Replace with your MongoDB host if different
     port=27017         # Replace with your MongoDB port if needed
 )
-`
+```
 
 - run
 
-` gunicorn --bind 0.0.0.0:8080 django_form_app.wsgi:application `
+```
+ gunicorn --bind 0.0.0.0:8080 django_form_app.wsgi:application 
+```
 
