@@ -1,4 +1,4 @@
-# django-ec2-app
+# Django Contacts Storage app
 
 - pip install django mongoengine gunicorn
 
