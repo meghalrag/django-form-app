@@ -1,0 +1,26 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore database and logs
+*.sqlite3
+*.log
+
+# Ignore Gunicorn PID file
+gunicorn.pid
+
+# Ignore environment variables
+.env
+
+# Ignore VS Code and JetBrains files
+.vscode/
+.idea/
+
+# Ignore static and media files (optional)
+staticfiles/
+media/
