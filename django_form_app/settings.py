@@ -123,6 +123,3 @@ mongoengine.connect(
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
-
-# Define the directory where collected static files will be placed (for production)
-STATIC_ROOT = BASE_DIR / "staticfiles"
