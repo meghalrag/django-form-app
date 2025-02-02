@@ -118,3 +118,11 @@ mongoengine.connect(
     host='localhost',  # Replace with your MongoDB host if different
     port=27017         # Replace with your MongoDB port if needed
 )
+
+# Define the directory where static files will be stored
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
+
+# Define the directory where collected static files will be placed (for production)
+STATIC_ROOT = BASE_DIR / "staticfiles"
