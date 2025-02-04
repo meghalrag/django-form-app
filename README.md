@@ -15,11 +15,7 @@ mongoengine.connect(
 )
 ```
 
-- run
-
-```
- gunicorn --bind 0.0.0.0:8080 django_form_app.wsgi:application 
-```
+# App Setup Guide
 
 Step 1: Clone the repo
 ```
