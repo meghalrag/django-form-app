@@ -23,11 +23,11 @@ git clone https://github.com/meghalrag/django-form-app.git
 ```
 Step 2: Create a virtual environment to run the app
 ``` 
-python3 -m venv ec2_env 
+python3 -m venv env 
 ```
 Step 3: Activate Environment
 ```
-source ec2_env/bin/activate
+source env/bin/activate
 ```
 Step 4: Go to the project folder
 ```
