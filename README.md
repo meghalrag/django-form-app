@@ -22,7 +22,9 @@ mongoengine.connect(
 ```
 
 Step 1: Clone the repo
-```git clone https://github.com/meghalrag/django-form-app.git```
+```
+git clone https://github.com/meghalrag/django-form-app.git
+```
 Step 2: Create a virtual environment to run the app
 ``` 
 python3 -m venv ec2_env 
