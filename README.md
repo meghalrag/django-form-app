@@ -1,6 +1,6 @@
 # Django Contacts Storage app
 
-- pip install django mongoengine gunicorn
+- pip install django mongoengine
 
 - django-admin startproject django_form_app
 
