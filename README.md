@@ -15,7 +15,7 @@ mongoengine.connect(
 )
 ```
 
-# App Setup Guide
+## App Setup Guide
 
 Step 1: Clone the repo
 ```
